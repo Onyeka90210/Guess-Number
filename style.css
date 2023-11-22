@@ -36,13 +36,13 @@ header{
   
   .right {
     width: 25rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     height: 20rem;
   }
   
   /* ELEMENTS STYLE */
   h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     text-align: center;
     position: absolute;
     width: 100%;
@@ -50,13 +50,17 @@ header{
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
   
   .number {
-    padding: auto;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
     background: #eee;
     color: #333;
-    font-size: 5rem;
-    width: 7rem;
+    font-size: 3rem;
+    width: 5rem;
   
     text-align: center;
     position: absolute;
@@ -66,7 +70,7 @@ header{
   }
   
   .between {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     position: absolute;
     top: 2rem;
     right: 2rem;
@@ -95,7 +99,7 @@ header{
     border: none;
     background-color: #eee;
     color: #222;
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-family: inherit;
     cursor: pointer;
     height: 50px;
@@ -117,38 +121,6 @@ header{
     margin-top: 150px;
   }
   
-  /* @media(max-width: 850px){
-    .again {
-      position: static;
-    margin-top: 10px;
-    margin-left: 10px;
-    }
-    .btn{
-      font-size: 1.5rem;
-      height: 40px;
-      width: 120px;
-    }
-    .between{
-      position: end;
-      margin-top: -10px;
-      margin-right: -10px;
-    }
-    .guess{
-      width: 15rem;
-      height: 5rem;
-    }
-    .right {
-      width: 15rem;
-      font-size: 1.5rem;
-    }
-    .message{ margin-top: 15px;
-
-    }
-    .label-score{
-      margin-top: -80px;
-    }
-
-  } */
   @media(max-width: 850px){
     .again {
       position: static;
@@ -156,36 +128,37 @@ header{
     margin-left: 10px;
     }
     .btn{
-      font-size: 1.2rem;
+      font-size: 1rem;
       height: 40px;
       width: 120px;
     }
     .between{
       position: end;
       margin-top: -10px;
-      margin-right: -10px;
-      font-size: 1rem;
+      margin-right: -20px;
+      font-size: 10px;
     }
     .head{
-      font-size: 2.5rem;
+      font-size: 2rem;
       width: 15rem;
     }
     .number{
-      font-size: 3rem;
+      font-size: 2rem;
       width: 4rem;
     }
   
     .guess{
       width: 10rem;
       height: 5rem;
+      font-size: 2rem;
     }
     .right {
       width: 15rem;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
     }
     .left{
       width: 15rem;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
     }
     .message{ 
       padding-left: 30px;
